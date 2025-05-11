@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         哔哩哔哩终极优化工具箱
+// @name         哔哩哔哩终极优化工具箱（自用整合）
 // @namespace    http://tampermonkey.net/
 // @version      6.0
 // @description  全面优化哔哩哔哩体验：禁用 P2P CDN、移除鸿蒙字体、阻止 WebRTC、去除地址栏多余参数、禁用上报数据、未登录时自动试用最高画质、去广告、首页和动态优化、直播原画、视频裁切、自定义CDN切换等。
-// @author       Anonymous, DD1969, kookxiang, 1332019995@qq.com
+// @author       Anonymous, DD1969, kookxiang, 1332019995@qq.com (integrated by obineller411)
 // @match        https://*.bilibili.com/*
 // @license      GPL-3.0
 // @icon         https://www.bilibili.com/favicon.ico
@@ -13,9 +13,10 @@
 // @grant        GM_setValue
 // @grant        GM_notification
 // @run-at       document-start
-// @downloadURL  https://update.greasyfork.org/scripts/467511/Bilibili%20-%20%E5%9C%A8%E6%9C%AA%E7%99%BB%E5%BD%95%E7%9A%84%E6%83%85%E5%86%B5%E4%B8%8B%E8%87%AA%E5%8A%A8%E5%B9%B6%E6%97%A0%E9%99%90%E8%AF%95%E7%94%A8%E6%9C%80%E9%AB%98%E7%94%BB%E8%B4%A8.user.js
-// @updateURL    https://update.greasyfork.org/scripts/467511/Bilibili%20-%20%E5%9C%A8%E6%9C%AA%E7%99%BB%E5%BD%95%E7%9A%84%E6%83%85%E5%86%B5%E4%B8%8B%E8%87%AA%E5%8A%A8%E5%B9%B6%E6%97%A0%E9%99%90%E8%AF%95%E7%94%A8%E6%9C%80%E9%AB%98%E7%94%BB%E8%B4%A8.meta.js
+// @downloadURL  https://raw.githubusercontent.com/obineller411/bilitools/main/bilitools.js
+// @updateURL    https://raw.githubusercontent.com/obineller411/bilitools/main/bilitools.js
 // ==/UserScript==
+
 
 (function() {
     'use strict';
